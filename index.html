@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Bottstrap v5.2 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header class="mb-5">
+        <nav class="navbar bg-dark align-items-center">
+            <div class="container-fluid">
+                <a class="navbar-brand m-auto m-md-0" href="#">
+                    <img src="./css/img/unnamed.png" alt="Logo" class="d-inline-block img-size">
+                <h1 class="mb-0 ms-3 d-none d-md-inline-block title-color">SICURISSIMO PASSWORD GENERATOR
+                </h1>
+                </a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section id="generator">
+            <div class="container">
+                <div class="row">
+                    <div class="offset-1 col-10 generator-bg">
+                        <h2 class="m-3 text-center">Benvenuto nel tuo <br><span class="title-color">SICURISSIMO Password Generator</span><br>preferito</h2>
+                        <p class="m-3 text-center fw-lighter">Inserisci qui sotto i tuoi dati per generare automaticamente la tua nuova e super sicura password da usare in qualsiasi sito web, specialemente quelli dove inserisci metodi di pagamento.</p>
+                        <p class="m-3 fw-bold">Il tuo nome è: <span id="name">Qui verrà visualizzato il tuo nome.</span></p>
+                        <p class="m-3 fw-bold">Il tuo cognome è: <span id="lastname">Qui verrà visualizzato il tuo cognome.</span></p>
+                        <p class="m-3 fw-bold pb-5">Il tuo colore preferito è: <span id="favorite-color">Qui verrà visualizzato il tuo colore preferito.</span></p>
+                        <p class="m-3 fw-bolder">Ecco la tua nuova password segretissima!</p>
+                        <p id="password" class="fw-border fs-1 mx-3 border border-secondary rounded-4 text-center text-danger" > password</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script type="text/javascript" src="./js/script.js"></script>
+</body>
+</html>

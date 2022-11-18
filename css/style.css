@@ -1,0 +1,25 @@
+
+body{
+    background-color: grey;
+    height: 100vh;
+}
+span{
+    color: green;
+    font-weight: normal;
+    text-transform: capitalize;
+}
+img.img-size{
+    width: 100px;
+}
+
+.title-color{
+    vertical-align: middle;
+    color: #4385F4;
+    font-weight: bolder;
+}
+
+div.generator-bg{
+    background-color: white;
+    border-radius: 30px;
+}
+
