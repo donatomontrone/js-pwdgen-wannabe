@@ -4,7 +4,7 @@ const userName = prompt("Inserisci il tuo nome");
 document.getElementById('name').innerHTML= userName;
 
 // Dichiarazione variabile cognome
-const userLastName = prompt("Inserisci il tuo cognonome");
+const userLastName = prompt("Inserisci il tuo cognome");
 
 document.getElementById('lastname').innerHTML= userLastName;
 
